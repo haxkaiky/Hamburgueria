@@ -1,0 +1,186 @@
+/* Fonte Principal */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../assets/gifs/iloveburger.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 97vh;
+}
+
+.backgroundCardapio {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../assets/gifs/cardapio.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 97vh;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.imgLogo {
+    width: 10rem;
+}
+
+/* Icone */
+#cardapio {
+    color: #fff;
+}
+
+i {
+    color: #fff;
+}
+
+#inicio {
+    padding-right: 10px;
+}
+
+#autores {
+    padding-right: 5px;
+}
+
+
+/* SECTION HAMBURGURES */
+
+.sectionHambs {
+    background-color: #15191d;
+}
+
+.textHambs {
+    color: #000;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffba00;
+}
+
+.lanches {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+}
+
+.btnComprar {
+    display: block;
+    max-width: 200px;    
+    padding: 15px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #FAFAFA;
+    color: #FAFAFA;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.btnComprar:hover {
+    background-color: #FAFAFA;
+    color: black;
+}
+
+.btnRepo {
+    display: block;
+    max-width: 200px;    
+    padding: 15px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #FAFAFA;
+    color: #FAFAFA;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.btnRepo:hover {
+    background-color: #ffba00;
+    color: black;
+}
+
+figcaption {
+    font-weight: 600;
+}
+
+figure h2 {
+    color: #ffba00;
+    font-weight: 900;
+}
+
+/* LANCHES */
+
+.xgostoso {
+    color: #FFF;
+}
+
+.xdelicia {
+    color: #FFF;
+}
+
+.milkshake {
+    color: #FFF;
+}
+
+.batatafrita {
+    color: #fff;
+}
+
+.nuggets {
+    color: #fff;
+}
+
+.xmonstruoso {
+    color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    background-color: #364461;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f7a21b;
+}
+
