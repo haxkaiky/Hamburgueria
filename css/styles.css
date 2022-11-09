@@ -140,6 +140,19 @@ figure h2 {
     font-weight: 900;
 }
 
+/* Section Autores */
+
+.sectionAutores {
+    background-color: #090f13;
+}
+
+.textAutores {
+    color: #000;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffba00;
+}
+
 /* LANCHES */
 
 .xgostoso {
