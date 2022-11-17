@@ -4,9 +4,8 @@
 ### Uma Landing Page de Hamburgueria, nome inteiramente fictício © Projeto Independente.
 
 <div align="center">
-![logo](https://user-images.githubusercontent.com/102567706/202580339-9df11cb9-05bf-48ab-8e6f-478a7949275f.png)
+  <img height="400" src="https://user-images.githubusercontent.com/102567706/202580339-9df11cb9-05bf-48ab-8e6f-478a7949275f.png"  />
 </div>
-
 
 ## Screenshots
 
